@@ -29,6 +29,8 @@ const Main = ({ activeNote, onUpdateNote }) => {
           value={activeNote.content}
           onChange={(e) => onEditNote("content", e.target.value)}
         ></textarea>
+        <p>{`${activeNote.content.length}文字数`}</p>
+
       </div>
       <div className="app-main-note-preview">
         <h1 className="preview-title">{activeNote.title}</h1>
