@@ -40,4 +40,21 @@ const Main = ({ activeNote, onUpdateNote }) => {
   );
 };
 
+<div className="app-main">
+      <div className="app-main-note-edit">
+        <input
+          type="text"
+        />
+        <textarea
+          placeholder="ノート内容を記入"
+        ></textarea>
+        <p>文字数</p>
+
+      </div>
+      <div className="app-main-note-preview">
+        <h1 className="preview-title">タイトル</h1>
+        <div className="markdown-preview">内容</div>
+      </div>
+    </div>
+
 export default Main;
