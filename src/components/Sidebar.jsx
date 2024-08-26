@@ -34,7 +34,7 @@ html
         <button>追加</button>
       </div>
       <div className="app-sidebar-notes">
-          <div className="app-sidebar-note" key={note.id} onClick={() => setActiveNote(note.id)}>
+          <div className="app-sidebar-note">
             <div className="sidebar-note-title">
               <strong>タイトル</strong>
               <button>削除</button>
